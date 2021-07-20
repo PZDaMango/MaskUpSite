@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<title>Mask Up!</title>
+
+<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet"> 
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+ 
+</head>
+
+<body>
+
+<!--
+Navigation bar code here
+-->
+
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="myNavbar">
+        <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Mask Up!</a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+            <li><a href="#welcome">HOME</a></li>
+            <li><a href="#videos">VIDEOS</a></li>
+            <li><a href="#reading">READING</a></li>
+            <li><a href="#article">ARTICLE</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+        
+        
+    </nav>
+    <section id="welcome">
+        <img src="Mask.jpeg" class="profile img-circle">
+        <h1 >Stay Safe Against
+            <br>
+            <span id="name" >Corona Virus</span>
+        </h1>
+        <h2 > (Ways to stay safe against COVID-19)</h2>
+    </section>
+
+
+    <section id="bio">
+        <h1>Mask Up, Covid Down!</h1>
+        <div class="line"></div>
+        <p>Coronavirus disease 2019 (COVID-19) is a contagious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).
+
+             The first known case was identified in Wuhan, China, in December 2019. The disease has since spread worldwide, leading to an ongoing pandemic.
+            <br><br> A COVID‑19 vaccine is a vaccine intended to provide acquired immunity against severe acute respiratory syndrome coronavirus 2 (SARS‑CoV‑2), the virus that causes coronavirus disease 2019.
+
+            After being expelled from the body, coronaviruses can survive on surfaces for hours to days.
+            <br><br> If a person touches the dirty surface where COVID has been, they may deposit the virus at the eyes, nose, or mouth where it can enter the body and cause the COVID-19 disease.
+    </section>
+
+<hr>
+    <section id="videos">
+        <h1>Videos</h1>
+        <div class="line"></div>
+        <br>
+        <iframe src="https://www.youtube.com/embed//DCdxsnRF1Fk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video1" height="500" > </iframe>
+        <br>
+        <br>
+
+        <iframe height="500" src="https://www.youtube.com/embed//J4xYu_bMqeI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video2" ></iframe>
+    </section>
+
+<hr>
+    <section id="reading" style="width: 100%;">
+        <h1>Reading</h1>
+        <div class="line"></div>
+        <iframe class="reading_iframe" height="1000" src="https://en.wikipedia.org/wiki/COVID-19" frameborder="0" style="width: 80%; margin: 10px;"></iframe>
+
+    </section>
+
+    <hr>
+
+    <section id="article">
+        <h1 style="f">ARTICLE</h1>
+        <div class="line"></div>
+        <a class="article" href="https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/coronavirus-safety.html" target="_blank">Redcross: Coronavirus Safety Tips & Precautions</a>
+        <br>
+        <a class="article" href="https://interestingengineering.com/how-did-tim-berners-lee-change-the-world-with-the-world-wide-web" target="_blank">CDC: How to Protect Yourself & Others</a>
+    </section>
+    <hr>
+
+<section id="contact">
+    <h1 style="f">CONTACT</h1>
+        <div class="line"></div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0"  allowfullscreen=""></iframe>
+
+    <!--ADD bootstrap classes to contact_1 div -->
+    <div class="contact_1 col-lg-6 col-md-6 col-sm-6 col-xs-12" >
+           <a href="mailto:my@gmail.com?Subject=Hi">
+               <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;praneelsajjan@gmail.com</h5>
+            </a> 
+        </div>
+
+    <!--
+    form code here
+    -->
+    <div class="contact_2 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+    <form>
+        <span>Name: </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" required>
+        <br><br>
+        <span>Comment: </span><input type="text" name="comment" required>
+        <br><br>
+        <input type="submit" value="submit" class="btn btn-success">
+        </form>
+    </div>
+    
+    </section>
+
+</body></html>
